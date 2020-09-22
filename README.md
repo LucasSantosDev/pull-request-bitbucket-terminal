@@ -10,4 +10,8 @@ sudo apt-get install jq
 ```
 brew install jq
 ```
+
+# Execute command
+```
 sh pullrequest.sh "branch_destination" "title" "descriprion" (description is optional)
+```
