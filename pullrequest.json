@@ -1,0 +1,23 @@
+{
+  "title": "My first pull request created by terminal",
+  "description": "",
+  "source": {
+    "branch": {
+      "name": "feature_name"
+    },
+    "repository": {
+      "full_name": "company_name/repository_name"
+    }
+  },
+  "destination": {
+    "branch": {
+      "name": "source_destination"
+    }
+  },
+  "reviewers": [
+    {
+      "username": "nickname_reviewers"
+    }
+  ],
+  "close_source_branch": false
+}
