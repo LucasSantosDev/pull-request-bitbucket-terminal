@@ -33,4 +33,4 @@ rm pullrequest.json
 
 mv pullrequest_copy.json pullrequest.json
 
-curl -X POST -H "Content-Type: application/json" -u $(git config user.email) https://bitbucket.org/api/2.0/repositories/$(git config --get remote.origin.url | sed 's/.*\/\([^ ]*\/[^>
+curl -X POST -H "Content-Type: application/json" -u $(git config user.email) https://bitbucket.org/api/2.0/repositories/$(git config --get remote.origin.url | sed 's/.*\/\([^ ]*\/[^.]*\).*/\1/')/pullrequests -d @pullrequest.json
