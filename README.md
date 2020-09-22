@@ -13,5 +13,5 @@ brew install jq
 
 # Execute command
 ```
-sh pullrequest.sh "branch_destination" "title" "descriprion" (description is optional)
+sh pullrequest.sh
 ```
