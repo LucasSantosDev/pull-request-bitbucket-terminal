@@ -1,12 +1,12 @@
 # pull-request-bitbucket-terminal
 Script to create pull request by terminal on bitbucket
 
-# Linux
+# Install package on Linux
 ```
 sudo apt-get install jq
 ```
 
-# MacOS
+# Install package on MacOS
 ```
 brew install jq
 ```
